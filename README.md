@@ -24,7 +24,7 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
  Este repositório contém os scripts de povoamento das tabelas desenvolvidas na atividade anterior, conforme as regras estabelecidas.
  Para garantir o bom funcionamento do sistema, é essencial que as seguintes atividades sejam observadas durante o povoamento inicial:
   
-  Inclusão de pelo menos dez médicos de diferentes especialidades;
+  <p>Inclusão de pelo menos dez médicos de diferentes especialidades;<p>
 
   Inclusão de pelo menos sete especialidades (considerando a afirmação de que “entre as especialidades há pediatria, clínica geral, gastrenterologia e dermatologia”);
 
