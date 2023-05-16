@@ -19,7 +19,7 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
 
 ![diagramaHospital](https://github.com/CaiqueDEV1/BancoDeDados/assets/125465166/ba605327-ef9d-4ca8-8b83-d2f35a575a43)
 
-<h1>3ª PARTE - O Prisioneiro dos Dados</h1>
+<h1>PARTE 3 - Alimentando o banco de dados</h1>
 <h2>Povoamento inicial do sistema</h2>
  Este repositório contém os scripts de povoamento das tabelas desenvolvidas na atividade anterior, conforme as regras estabelecidas.
  Para garantir o bom funcionamento do sistema, é essencial que as seguintes atividades sejam observadas durante o povoamento inicial:
