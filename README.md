@@ -23,8 +23,8 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
 <h2>Povoamento inicial do sistema<h2>
  Este repositório contém os scripts de povoamento das tabelas desenvolvidas na atividade anterior, conforme as regras estabelecidas.
  Para garantir o bom funcionamento do sistema, é essencial que as seguintes atividades sejam observadas durante o povoamento inicial:
-  
-  <p>Inclusão de pelo menos dez médicos de diferentes especialidades;<p>
+ 
+  Inclusão de pelo menos dez médicos de diferentes especialidades;
 
   Inclusão de pelo menos sete especialidades (considerando a afirmação de que “entre as especialidades há pediatria, clínica geral, gastrenterologia e dermatologia”);
 
@@ -53,3 +53,4 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
   Inclusão dos dados de dez profissionais de enfermagem, com associação de cada internação a pelo menos dois enfermeiros. Por fim, é importante destacar que os dados de 
   tipo de quarto, convênio e especialidade são essenciais para a operação do sistema e, portanto, devem ser povoados assim que o sistema for instalado. Assim, garantimos 
   que o sistema esteja completo e funcional desde o seu primeiro uso.
+  
