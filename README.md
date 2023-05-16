@@ -54,7 +54,7 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
   tipo de quarto, convênio e especialidade são essenciais para a operação do sistema e, portanto, devem ser povoados assim que o sistema for instalado. Assim, garantimos 
   que o sistema esteja completo e funcional desde o seu primeiro uso.
   
-  <h4>Utilizando os seguintes códigos, adicionei as informações</h4>
+  <h3>Utilizando os seguintes códigos, inserindo as informações</h3>
   
   INSERT INTO medico (nome) VALUES
   ('Luiz'),
