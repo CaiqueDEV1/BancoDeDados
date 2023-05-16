@@ -157,3 +157,26 @@ INSERT INTO consulta (data_consulta, hora_consulta, id_paciente, id_medico) VALU
 ('2022-01-08 10:00:00', '2022-01-12 10:00:00', NULL, 'Cirurgia de coração', 8),
 ('2022-01-09 10:00:00', '2022-01-13 10:00:00', NULL, 'Cirurgia de pulmão', 9),
 ('2022-01-10 10:00:00', '2022-01-14 10:00:00', NULL, 'Cirurgia de rim', 10);
+
+
+<h2>PARTE 4 - Alterando o banco de dados</h2>
+
+Pensando no banco que já foi criado para o Projeto do Hospital, realize algumas alterações nas tabelas e nos dados usando comandos de atualização e exclusão:
+Crie um script que adicione uma coluna “em_atividade” para os médicos, indicando se ele ainda está atuando no hospital ou não. 
+Crie um script para atualizar ao menos dois médicos como inativos e os demais em atividade.
+
+<h4>Alterando e adicionando</h4>
+
+ALTER TABLE medico ADD COLUMN em_atividade VARCHAR(20);
+UPDATE medico SET em_atividade = 'Inativo' WHERE id_medico = 1;
+UPDATE medico SET em_atividade = 'Em atividade' WHERE id_medico = 2;
+UPDATE medico SET em_atividade = 'Inativo' WHERE id_medico = 3;
+UPDATE medico SET em_atividade = 'Em atividade' WHERE id_medico = 4;
+UPDATE medico SET em_atividade = 'Em atividade' WHERE id_medico = 5;
+UPDATE medico SET em_atividade = 'Em atividade' WHERE id_medico = 6;
+UPDATE medico SET em_atividade = 'Em atividade' WHERE id_medico = 7;
+UPDATE medico SET em_atividade = 'Em atividade' WHERE id_medico = 8;
+UPDATE medico SET em_atividade = 'Em atividade' WHERE id_medico = 9;
+UPDATE medico SET em_atividade = 'Em atividade' WHERE id_medico = 10;
+
+ALTER TABLE medico ALTER COLUMN em_atividade SET DEFAULT 'Em atividade';
