@@ -19,6 +19,15 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
 
 ![diagramaHospital](https://github.com/CaiqueDEV1/BancoDeDados/assets/125465166/ba605327-ef9d-4ca8-8b83-d2f35a575a43)
 
+<h1>Parte 2</h1>
+
+Faça a ligação do diagrama acima ao diagrama desenvolvido na atividade antrior, construindo relacionamentos com entidades relacionadas. E eleve o seu diagrama para que já selecionando os tipos de dados que serão trabalhados e em quais situações. 
+
+Por último, crie um script SQL para a geração do banco de dados e para instruções de montagem de cada uma das entidades/tabelas presentes no diagrama completo (considerando as entidades do diagrama da atividade anterior e as novas entidades propostas no diagrama acima). Também crie tabelas para relacionamentos quando necessário. Aplique colunas e chaves primárias e estrangeiras.
+
+![diagrama2](https://github.com/CaiqueDEV1/BancoHospital-DB/assets/125465166/eda8a4e6-cd8b-46c6-9f39-90e498dc3957)
+
+
 <h1>PARTE 3 - Alimentando o banco de dados</h1>
 <h2>Povoamento inicial do sistema</h2>
  Este repositório contém os scripts de povoamento das tabelas desenvolvidas na atividade anterior, conforme as regras estabelecidas.
